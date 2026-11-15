@@ -5,7 +5,7 @@
     0.75,
     1
   ],
-  "maxUsers": 200,
+  "maxUsers": 96,
   "amountCap": 1000,
   "seed": 83
 }

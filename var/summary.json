@@ -1,0 +1,20 @@
+{
+  "count": 96,
+  "groupBy": "arm",
+  "groups": [
+    {
+      "count": 48,
+      "key": "A",
+      "meanAmount": 60.583333333333336,
+      "sum": 2908
+    },
+    {
+      "count": 48,
+      "key": "B",
+      "meanAmount": 60.625,
+      "sum": 2910
+    }
+  ],
+  "inputFingerprint": "272613e4048efdfe89c57487b44c4cb593032daddbdf69c9c5c939feb9ab9ec8",
+  "valueField": "amount"
+}

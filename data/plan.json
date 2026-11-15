@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "id": "launch-2026-11",
+  "alpha": 0.05,
+  "sides": 2,
+  "outcome": {
+    "field": "amount",
+    "amountCap": 1000,
+    "perUserAggregation": "sum-then-cap"
+  },
+  "arms": {
+    "control": "A",
+    "treatment": "B",
+    "randomizationUnit": "user",
+    "allocation": [
+      0.5,
+      0.5
+    ]
+  },
+  "information": {
+    "rule": "eligible-users",
+    "maxUsers": 96
+  },
+  "looks": {
+    "fractions": [
+      0.5,
+      0.75,
+      1
+    ]
+  },
+  "spending": {
+    "type": "obrien-fleming"
+  },
+  "numerics": {
+    "quadratureOrder": 160,
+    "comparisonOrder": 64,
+    "tolerance": 1e-10,
+    "maxIterations": 80,
+    "finiteSample": "student-t"
+  }
+}
